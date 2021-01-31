@@ -32,4 +32,15 @@
 
 
 
-
+# 強化学習
+* [強化学習](https://www.amazon.co.jp/dp/B07XJXMQGD/)
+* [強化学習](https://www.amazon.co.jp/dp/4627826613/)
+* [これからの強化学習](https://www.amazon.co.jp/dp/4627880316/)
+* [Ｐｙｔｈｏｎで学ぶ強化学習](https://www.amazon.co.jp/dp/B082HNNGQG/)
+    - 結論: 却下．FWがあるので，スクラッチで書く需要が無い．
+* [OpenAI Gym / Baselines 深層学習・強化学習](https://www.amazon.co.jp/dp/4862464726/)
+    - 結論: 保留．実際にOpenAI Gymをいじり始めたときに，必要であれば，読む．
+* [最強囲碁AI アルファ碁 解体新書](https://www.amazon.co.jp/dp/B07F11T4CS/)
+    - 結論: 読む．
+* [AlphaZero 深層学習・強化学習・探索 人工知能プログラミング実践入門](https://www.amazon.co.jp/dp/4862464505/)
+    - 結論: 読む．
