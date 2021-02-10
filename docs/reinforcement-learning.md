@@ -1,20 +1,22 @@
 # todo
-* モデルフリー vs モデルベース
-* [スマートフォンで人工生命数十体がリアルタイムに学習可能な深層強化学習 - Dwango Media Village(ドワンゴメディアヴィレッジ,dmv)](https://dmv.nico/ja/casestudy/rlcreature/)
+* "自然言語処理 強化学習"
 * 最新のdeep reinforcement learning の知識を得る．
-    - survery paper
+    - **survery paper**
     - ぐぐり muzero alpha-zero など．
-* PFRL(+OpenAI Gym)を動かしてみる．
-* [Unity ML-Agents実践ゲームプログラミング eBook: 布留川英一: Kindleストア](https://www.amazon.co.jp/dp/B08JBFXFQ9/)
+* PFRL(+OpenAI Gym)を読み，動かしてみる．
+* [Unity ML-Agents実践ゲームプログラミング](https://www.amazon.co.jp/dp/B08JBFXFQ9/)
+
+## ニュース
+* [スマートフォンで人工生命数十体がリアルタイムに学習可能な深層強化学習 - Dwango Media Village(ドワンゴメディアヴィレッジ,dmv)](https://dmv.nico/ja/casestudy/rlcreature/)
 
 
 
 
 # 参考資料
 * [強化学習](https://www.amazon.co.jp/dp/4627826613/)
-    - 非常に良い
+    - 非常に良い．最初に読むべき．
 * [強化学習](https://www.amazon.co.jp/dp/B07XJXMQGD/)
-    - 収束性の証明などが大半．
+    - 収束性の証明などが大半．次に読むべき．
 * [これからの強化学習](https://www.amazon.co.jp/dp/4627880316/)
     - オムニバス．
 * [Ｐｙｔｈｏｎで学ぶ強化学習](https://www.amazon.co.jp/dp/B082HNNGQG/)
