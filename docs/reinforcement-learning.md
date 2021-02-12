@@ -1,5 +1,7 @@
 # todo
 * "自然言語処理 強化学習"
+    - 大雑把に適用例を見たあとに，
+    - {dialogue, chatbot} x {reinforcement learning}
 * 最新のdeep reinforcement learning の知識を得る．
     - **survery paper**
     - ぐぐり muzero alpha-zero など．

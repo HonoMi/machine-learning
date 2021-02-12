@@ -37,3 +37,23 @@
         * Cons: 
             - mが小さいと，validationが偏る．
 
+
+
+# CVはいつ必要か？
+* validationが必要な場合
+    - 一般論
+        * モデル選択をする場合
+        * stackingをする場合
+    - 今回の場合
+        * すべてのメソッドで必要となる．ベースモデル数の選択をするから．
+        * もちろん，stackingでは特に重要．
+* Cross validationが必要な場合
+    - 一般論
+        * validationが必要な場合 & fold-outだとvalidation dataが少ない場合
+    - 今回の場合
+        * validation foldのデータ数が10k以下になる場合(この基準は適当に決めた)
+
+上記までだと，stacking/votingの両方の場合で，どのタスクでも必要なCVは同じとなる．
+しかし，votingで必要なのはモデル数の選択だけであるため，stackingよりは必要はvalidation dataの数が少ないと考えられる．
+つまり，フェアでない．
+よって，votingの場合はCVの数を減らして実験をするか，「一般にはハイパラ等も選ぶため，votingでもCVは必要」と強弁してしまうかのどちらかが必要となる．
