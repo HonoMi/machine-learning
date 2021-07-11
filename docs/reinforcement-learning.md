@@ -1,9 +1,32 @@
 # todo
-* [メカトロニクスと「つかむ」〜PFNの研究〜 | Playgram](https://playgram.jp/oshiete-pfn/robot-2-researches/)
-* 研究ideaを出す
-* "自然言語処理 強化学習"
-    - 大雑把に適用例を見たあとに，
-    - {dialogue, chatbot} x {reinforcement learning}
+* 報酬関数の変数依存性(R(s, a))は何故？
+* 精通する。
+    * "強化学習 コンペティション"
+    * [Deep Reinforcement Learning Hands-On by Lapan, Maxim](https://www.amazon.co.jp/dp/B07ZKDLZCR/)
+
+
+
+
+# baseline function
+* なぜbaselineを引くと勾配の分散が小さくなるのか。
+* なぜ分散が小さいと、収束が速いのか。
+
+
+
+
+
+
+# Off-policy vs On-policy
+* [原論文](http://proceedings.mlr.press/v32/silver14.pdf)
+    - 一番参考になる。
+    - 本論文では、deterministic policy gradientを導出した。
+    - 背景も含めた結論:
+        - stochasticの場合も、off-policy gradientは存在する。ただし、importance sampling ratioをかけ算する必要があり、これが発散したりして厄介。
+        - deterministicの場合はimportance sampling ratioが消えるので、うれしい。
+* [Doubt: Why is DDPG off-policy?](https://www.reddit.com/r/reinforcementlearning/comments/9dhga2/doubt_why_is_ddpg_offpolicy_is_it_because_they/)
+* [Deterministic Policy Gradient Algorithms - Qiita](https://qiita.com/ku2482/items/7fd5fb65666328209ace)
+* [Why is DDPG an off-policy RL algorithm? - Artificial Intelligence Stack Exchange](https://ai.stackexchange.com/questions/20773/why-is-ddpg-an-off-policy-rl-algorithm)
+* [DDPGでPendulum-v0（強化学習, tensorflow2）](https://horomary.hatenablog.com/entry/2020/06/26/003806)
 
 
 
