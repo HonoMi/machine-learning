@@ -1,10 +1,18 @@
 # todo
+* interactive agent
+    - Interactive Language Learning by Question Answering
+    - Interactive Machine Comprehension with Information Seeking Agents
+* hands on 本
+    * NLPタスク
+        * text world
+            - 主張: transformerのおかげで、自然言語に起因する部分は解決 => 強化学習的なアルゴリズムに集中できる
+        * WebNavigation (MiniWoB)
+    * 最先端の話題
+        * Black-Box Optimization in RL
+        * Beyond Model-Free - Imagination (Model-based RL)
+        * Multi-agent RL
 * sonicなどで「人形を動かす」ことを学習してから、montezmaをやる
-* MiniWoB
-* black box optimizationの章
-* text world
-    - 主張: transformerのおかげで、自然言語に起因する部分は解決 => 強化学習的なアルゴリズムに集中できる
-* ideaをもう少し詰める。
+* "ideas"をもう少し詰める。
 
 
 # 戦略
