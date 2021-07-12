@@ -2,7 +2,7 @@
 * interactive agent
     - Interactive Language Learning by Question Answering
     - Interactive Machine Comprehension with Information Seeking Agents
-* hands on 本
+* 「hands on 本」からテーマを引き出す。
     * NLPタスク
         * text world
             - 主張: transformerのおかげで、自然言語に起因する部分は解決 => 強化学習的なアルゴリズムに集中できる

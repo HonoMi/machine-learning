@@ -1,18 +1,18 @@
 # ideas
-* 
 * (森尾) 議論
-* multimodal 系タスクで、Unitなどのmultimodal modelでSOTAを出す。
-* 「なろう」小説でpre-train
+
+
+
+# game
+
+## 全般
 * common senseの取り込みをもっと上手くやる。
+* multimodal 系タスクで、Unitなどのmultimodal modelでSOTAを出す。
+
+## text world
 * Enhancing Text-based Reinforcement Learning Agents with Commonsense Knowledge
     - KB retrieverで解いている。これをNLPのSOTAにする。
         - REALM
-* SOTAを出す
-    - transformer
-    - appropriate encoding
-* contextが長すぎてconcatできない
-    - KG化して解いている人がいる。
-    - 一方、textのまま解いても良い => textをdumpしておいて、Q&A方式で解く
 
 
 
